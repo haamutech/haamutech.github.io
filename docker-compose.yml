@@ -6,8 +6,8 @@ services:
     volumes:
       - $PWD:/srv/jekyll
       - $PWD/vendor/bundle:/usr/local/bundle
+      - $PWD:/usr/src/app
     ports:
       - 4000:4000
       - 35729:35729
       - 3000:3000
-      -   80:4000
