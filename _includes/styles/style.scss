@@ -86,6 +86,7 @@ $font-family:         {{ site.font         | default:"Noto Sans, Helvetica, Aria
   @import "hydejack/_menu.pre.scss";
   @import "hydejack/_content.pre.scss";
   @import "hydejack/_avatar.pre.scss";
+  @import "hydejack/_address.pre.scss";
   @import "hydejack/_katex.pre.scss";
   @import "hydejack/_footer.pre.scss";
 

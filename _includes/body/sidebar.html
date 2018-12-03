@@ -37,7 +37,9 @@
         {% include body/nav.html %}
       </nav>
 
-      {% assign author = site.data.authors.first[1] | default:site.author %}
+      <div class="sidebar-address">
+         {% include components/address.html %}
+      </div>
 
       <div class="sidebar-social">
         {% include components/social.html author=author %}
