@@ -1,10 +1,3 @@
-GIT
-  remote: https://github.com/haamuorg/hydejack.git
-  revision: 216acea5d7185b69d2c65ea671014fbdc9ee1ded
-  specs:
-    jekyll-theme-hydejack (8.1.1)
-      jekyll (~> 3.7)
-
 GEM
   remote: https://rubygems.org/
   specs:
@@ -250,8 +243,16 @@ PLATFORMS
 
 DEPENDENCIES
   github-pages
-  jekyll-feed (~> 0.6)
-  jekyll-theme-hydejack!
+  jekyll-default-layout
+  jekyll-feed
+  jekyll-optional-front-matter
+  jekyll-paginate
+  jekyll-readme-index
+  jekyll-redirect-from
+  jekyll-relative-links
+  jekyll-seo-tag
+  jekyll-sitemap
+  jekyll-titles-from-headings
   tzinfo-data
 
 BUNDLED WITH
