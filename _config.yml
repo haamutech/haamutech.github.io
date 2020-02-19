@@ -20,6 +20,7 @@ description: >- # this means to ignore newlines until "baseurl:"
   Your partner in creating a high performing software development team.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
+google_analytics: UA-72517638-1
 accent_image: none
 accent_color: rgb(0, 0, 0)
 theme_color: rgb(0, 0, 0)
