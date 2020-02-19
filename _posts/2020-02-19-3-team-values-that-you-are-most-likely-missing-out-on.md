@@ -16,13 +16,13 @@ When you establish your team values it is actually a very eye opening experience
 
 Now, that we have talked about having team values, let’s have a look at some values and concretely analyze how they might influence the team and how one value can actually cover multiple values through indirect consequences of the core value itself.
 
-- **Quality Built-in**
+- **Quality Built-in**  
   With quality built-in, you ensure that with each step you take within your development process, you receive feedback on your progress. Using this feedback, you can verify whether you achieved what you aimed for. This creates confidence and certainty in your deliverables. When you as a team trust the performance and quality of your deliverables, you are also inspired to innovate and developing becomes a whole lot more fun!
 
-- **Transparency**
+- **Transparency**  
   When decisions, workflows and processes are transparent, you have the ability to swiftly react to always changing circumstances. Not only that, through transparency you advocate a common understanding allowing for much more fluent communication and cooperation. With transparency in all work that the team does, it becomes much easier to initiate knowledge sharing and in some cases also identify bottlenecks in the development process.
 
-- **Trust**
+- **Trust**  
   You trust others with what they promise and you trust yourself with what you promise. With trust in others and yourself, you also build a certain level of respect and encourage responsibility and accountability. Although difficult at times, acknowledging who is responsible and accountable for what, creates the opportunity to also clearly communicate about too much or too little responsibility. In ideal situations, this should also result into a feeling of shared responsibility, which in turn sparks even more communication. We all know that communication is key to successful and efficient cooperation.
 
 The key point to take away from all of this is that it is possible to create values which indirectly also promote other important values. For example, looking at quality built-in, it indirectly also promotes work satisfaction and allows for more enjoyment at the work place. Many teams value having fun while working and it is possible to set this as a value directly but the value itself does not indicate anything about what the team perceives as a fun work place and how it is achieved. Therefore, in short, make sure not to mix up your team wishes as values with the true values of your team that contribute to your team goals and wishes.
