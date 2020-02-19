@@ -7,3 +7,39 @@
     margin: 1.5rem 0;
   }
 }
+
+#_sidebar {
+   $primary: #fff;
+   $body-color: #000;
+   $font-family-sans-serif: Noto Sans, Helvetica, Arial, sans-serif;
+   $font-family-monospace: Consolas;
+
+   @import "bootstrap/bootstrap";
+
+   $gray-1: $gray-100;
+   $gray-4: $gray-400;
+
+   @import "cover/base";
+   @import "cover/blocks";
+
+   background-color: $black;
+
+   .sidebar-sticky {
+      width: 100%;
+      transition: width 1s ease;
+   }
+
+   .sidebar-sticky.cover {
+      width: 0%;
+   }
+
+   .sidebar-sticky p.lead {
+      padding: 2.5em;
+   }
+
+   .site-section {
+      margin-bottom: 25vh;
+   }
+   
+   padding-bottom: 25vh;
+}

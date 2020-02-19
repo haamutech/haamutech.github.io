@@ -43,15 +43,7 @@
     background-color: darken({{ color }}, 7.5%);
     border-color: darken({{ color }}, 7.5%);
   }
-
-  ::selection {
-    color: #fff;
-    background: {{ color }};
-  }
-
-  ::-moz-selection {
-    color: #fff;
-    background: {{ color }};
-  }
 {% endcapture %}{{ page_style | scssify }}
 </style>
+
+<link rel="stylesheet" href="{{ 'assets/css/aos.css' | relative_url }}">
