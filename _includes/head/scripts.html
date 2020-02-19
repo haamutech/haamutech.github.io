@@ -85,6 +85,7 @@ jQuery(document).ready(function($) {
                refresh();
             }
 
+            refreshLinks();
             $("#menu-home").addClass("active");
          });
       }
@@ -94,6 +95,14 @@ jQuery(document).ready(function($) {
       e.preventDefault();
       goTo(e.target.hash);
    });
+
+   function refreshLinks() {
+      var links = [].reverse.call($("#_navbar .nav-btn-bar li > a"));
+
+      links.removeClass("active");
+
+      return links;
+   }
 
    function refresh() {
       if (skipRefresh)
@@ -107,11 +116,7 @@ jQuery(document).ready(function($) {
       if (!drawer.opened)
          return;
 
-      var links = [].reverse.call($("#_navbar .nav-btn-bar li > a"));
-
-      links.removeClass("active");
-
-      links.each(function() {
+      refreshLinks().each(function() {
          if (!this.hash)
             return true;
 
