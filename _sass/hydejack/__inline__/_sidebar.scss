@@ -112,9 +112,11 @@ hy-drawer {
 .sidebar-sticky {
   position: relative;
   z-index: 3;
-  max-width: $sidebar-width;
   padding: 1.5rem;
   contain: content;
+  margin: 0 auto !important;
+  min-width: $sidebar-width !important;
+  max-width: 60%;
 }
 
 .sidebar-about {
