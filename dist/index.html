@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <meta charset="utf-8" />
+   <link href="styles.css" rel="stylesheet">
+   <link href="aos.css" rel="stylesheet">
+   <script src="script.js"></script>
+   <script src="aos.js"></script>
+</head>
+
+<body>
+
+<div class="h-screen flex flex-col" style="background: url(assets/bg.jpg) no-repeat; background-size: cover; background-position: 50%;" data-aos="fade-in">
+   <div class="flex-1 flex flex-col justify-center items-center">
+      <div data-aos="fade-up" data-aos-delay="200">
+         <div class="flex justify-center items-center text-white border-2 border-white">
+            <img src="assets/me.jpg" width="200" alt="" />
+
+            <div class="text-center text-4xl uppercase tracking-widest p-6">Hello,<br>my name is Jussi Raunio</div>
+         </div>
+      </div>
+
+      <div class="text-white mt-20 space-y-2">
+         <div class="text-2xl flex justify-start items-center space-x-5" data-aos="fade-left" data-aos-delay="400">
+            <div class="text-4xl">✔</div>
+            <div>15+ years of experience.</div>
+         </div>
+
+         <div class="text-2xl flex justify-start items-center space-x-5" data-aos="fade-left" data-aos-delay="600">
+            <div class="text-4xl">✔</div>
+            <div>Master of 8+ programming languages.</div>
+         </div>
+
+         <div class="text-2xl flex justify-start items-center space-x-5" data-aos="fade-left" data-aos-delay="800">
+            <div class="text-4xl">✔</div>
+            <div>1+ million software development answer views in <a href="https://www.quora.com/profile/Jussi-Raunio" target="_blank" class="underline">Quora</a>.</div>
+         </div>
+
+         <div class="text-2xl flex justify-start items-center space-x-5" data-aos="fade-left" data-aos-delay="1000">
+            <div class="text-4xl">✔</div>
+            <div>Hands-on with team lead and architect experience.</div>
+         </div>
+
+         <div class="text-2xl flex justify-start items-center space-x-5" data-aos="fade-left" data-aos-delay="1200">
+            <div class="text-4xl">✔</div>
+            <div>Domain knowledge ranging from game industry to financing.</div>
+         </div>
+
+         <div class="text-2xl flex justify-start items-center space-x-5" data-aos="fade-left" data-aos-delay="1200">
+            <div class="text-4xl">✔</div>
+            <div>Full-stack, AWS, Azure, DevOps, IoT, embedded, data engineering and machine learning.</div>
+         </div>
+
+         <div class="text-center pt-20" data-aos="fade-up" data-aos-delay="1800">
+            <form method="POST" enctype="text/plain" onsubmit="return contactMe(event)" id="hire">
+               <button type="submit" class="bg-black text-white text-3xl uppercase p-6 inline-block tracking-widest">
+                  Hire me
+               </button>
+           </form>
+         </div>
+      </div>
+   </div>
+
+   <div class="text-center text-gray-900 text-2xl uppercase tracking-widest p-4" data-aos="fade-up" data-aos-delay="2800" data-aos-anchor="#hire">
+      Not convinced? Scroll down to know more
+   </div>
+</div>
+
+<div class="h-screen flex flex-col" style="background: url(assets/bg2.jpg) no-repeat; background-size: cover; background-position: 50%;">
+   <div class="flex-1 flex justify-center items-center">
+      <div class="grid grid-cols-1 lg:grid-cols-3">
+         <div class="text-white p-4 lg:p-12" data-aos="fade-down" data-aos-delay="200">
+            <h2 class="text-2xl mb-3">Lead Software Developer at SATO</h2>
+            <p class="tracking-wide font-bold">Java, C#, JavaScript, SpringBoot, React, Microsoft Azure, AWS, Microsoft Dynamics 365</p>
+
+            <ul class="text-lg list-disc list-inside mt-3 space-y-2">
+               <li>Leading an agile software development team of five developers</li>
+               <li>Hands-on full-stack development of sato.fi and OmaSATO mobile app</li>
+            </ul>
+         </div>
+
+         <div class="text-white p-4 lg:p-12" data-aos="fade-down" data-aos-delay="400">
+            <h2 class="text-2xl mb-3">R&D Senior Software Engineer at ABB</h2>
+            <p class="tracking-wide font-bold">C#, JavaScript, C++, Node.js, Microsoft Azure, Docker</p>
+
+            <ul class="text-lg list-disc list-inside mt-3 space-y-2">
+               <li>Technical design and development of embedded ABB Ability IoT edge solution with TPM protection that connects to Azure Event Hub</li>
+               <li>Test-Driven Development (TDD) and Behavior-Driven Development with 100% test code coverage</li>
+            </ul>
+         </div>
+
+         <div class="text-white p-4 lg:p-12" data-aos="fade-down" data-aos-delay="600">
+            <h2 class="text-2xl mb-3">Senior Consultant at Houston Inc.</h2>
+            <p class="tracking-wide font-bold">JavaScript, Node.js, C#, Microsoft Azure</p>
+
+            <ul class="text-lg list-disc list-inside mt-3 space-y-2">
+               <li>Implementation and technical design of high availability and performance APIs using Azure API management and Azure Search for Caverion Oyj</li>
+               <li>Implementation of IoT stream and Data Lake analysis pipeline to analyse building data with abnormality detection for Caverion Oyj</li>
+            </ul>
+         </div>
+
+         <div class="text-white p-4 lg:p-12" data-aos="fade-down" data-aos-delay="800">
+            <h2 class="text-2xl mb-3">Consultancy at Pilke</h2>
+            <p class="tracking-wide font-bold">R, PostgreSQL</p>
+
+            <ul class="text-lg list-disc list-inside mt-3 space-y-2">
+               <li>Data cleanup and visualization of nursery data to optimize allocation of caretakers</li>
+               <li>Creating database migrations with prediction models that are updated dynamically to allocate caretakers to sites</li>
+            </ul>
+         </div>
+
+         <div class="text-white p-4 lg:p-12" data-aos="fade-down" data-aos-delay="1000">
+            <h2 class="text-2xl mb-3">Azure Developer / Architect at Zure</h2>
+            <p class="tracking-wide font-bold">C#, JavaScript, ASP.NET, jQuery, Microsoft Azure</p>
+
+            <ul class="text-lg list-disc list-inside mt-3 space-y-2">
+               <li>Maintenance and full-stack development of ERP for Corona Capital Oy</li>
+               <li>Full-stack implementation of travel expense invoicing app with mobile frontend for Qnware Oy</li>
+            </ul>
+         </div>
+
+         <div class="text-white p-4 lg:p-12" data-aos="fade-down" data-aos-delay="1200">
+            <h2 class="text-2xl mb-3">Software Engineer at W3 Group</h2>
+            <p class="tracking-wide font-bold">PHP, JavaScript, Knockout.JS</p>
+
+            <ul class="text-lg list-disc list-inside mt-3 space-y-2">
+               <li>Implementation and technical design of HTML5 news reader app for STT</li>
+               <li>Maintenance and full-stack development of rental ERP for Vuokraturva Oy</li>
+            </ul>
+         </div>
+
+         <div class="text-white p-4 lg:p-12" data-aos="fade-down" data-aos-delay="1400">
+            <h2 class="text-2xl mb-3">Programmer at Nitro Games</h2>
+            <p class="tracking-wide font-bold">C++, Lua, C#, Unity</p>
+
+            <ul class="text-lg list-disc list-inside mt-3 space-y-2">
+               <li>Pirates of the Black Cove PC game</li>
+               <li>Sink 'Em All mobile game</li>
+            </ul>
+         </div>
+
+         <form method="POST" enctype="text/plain" onsubmit="return contactMe(event)" class="m-6 flex justify-center items-center border-2 border-white border-dashed" data-aos="fade-down" data-aos-delay="2400" id="yourproject">
+            <button class="text-white p-6">
+               <h2 class="text-2xl">Your project here?</h2>
+            </button>
+         </form>
+      </div>
+   </div>
+
+   <div class="text-center text-gray-400 text-2xl uppercase tracking-widest p-4" data-aos="fade-up" data-aos-delay="2800" data-aos-anchor="#yourproject">
+      See more details and connect on <a href="https://linkedin.com/in/oinuar" target="_blank" class="underline">linkedin.com/in/oinuar</a>
+   </div>
+</div>
+
+<div class="h-screen flex flex-col justify-center items-center bg-shiny" id="maze-bg" style="background-repeat: no-repeat; background-size: cover;">
+   <div class="text-white text-5xl h leading-normal" data-aos="fade-up" data-aos-delay="400">
+      You got a problem,<br>I got the code,<br>let's work together to make a solution.
+   </div>
+
+   <div class="mt-20" data-aos="fade-up" data-aos-delay="1400">
+      <form method="POST" enctype="text/plain" onsubmit="return contactMe(event)">
+            <button type="submit" class="bg-black text-white text-3xl uppercase p-6 inline-block tracking-widest">
+               Contact me
+            </button>
+      </form>
+   </div>
+</div>
+
+<script>
+   AOS.init({
+      duration: 1200
+   });
+
+   const svg = createMazeSvg(1024, 32, generateMaze(32));
+
+   document.getElementById("maze-bg").style.backgroundImage = `url('data:image/svg+xml;base64,${btoa(svg)}')`;
+</script>
+
+</body>
+</html>
