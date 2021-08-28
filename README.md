@@ -10,4 +10,4 @@ npm install
 npm run build
 ```
 
-After that, the website is built in the `/dist` directory which you can commit to repository. That's it, happy coding.
+After that, the website is built in the `/docs` directory which you can commit to repository. That's it, happy coding.
