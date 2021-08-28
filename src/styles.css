@@ -12,7 +12,7 @@ html, body {
    scroll-snap-type: y mandatory;
 }
 
-.h-screen {
+.snap {
    scroll-snap-align: start;
 }
 
@@ -25,4 +25,14 @@ body {
 h1, h2, h3, h4, h5, h6 {
    font-family: 'Rubik', sans-serif;
    font-weight: 300;
+}
+
+.bg {
+   background: url(assets/bg.jpg) no-repeat center center;
+   background-size: cover;
+}
+
+.bg2 {
+   background: url(assets/bg2.jpg) no-repeat center center fixed;
+   background-size: cover;
 }
