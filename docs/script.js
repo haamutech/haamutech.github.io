@@ -173,3 +173,12 @@ function createMazeSvg(pixelSize, size, maze) {
 
    return svg.outerHTML;
 }
+
+window.onload = function() {
+   lax.init();
+
+   // Add vertical window scroll driver.
+   lax.addDriver("scrollY", function() {
+      return window.scrollY;
+   });
+};
