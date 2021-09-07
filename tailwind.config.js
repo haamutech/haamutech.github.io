@@ -1,6 +1,6 @@
 module.exports = {
    purge: {
-      //enabled: true,
+      enabled: true,
       content: ["./docs/**/*.html"],
    },
    darkMode: false, // or 'media' or 'class'
@@ -13,6 +13,9 @@ module.exports = {
             shiny: {
                DEFAULT: "#a2c3a4"
             }
+         },
+         flex: {
+            full: "1 1 100%"
          }
       }
    },
