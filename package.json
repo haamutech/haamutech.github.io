@@ -4,12 +4,13 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "postcss src/styles.css -o docs/styles.css"
+    "build": "copyfiles -fE node_modules/lax.js/lib/lax.min.js docs/ && postcss src/styles.css -o docs/styles.css"
   },
   "author": "",
   "license": "UNLICENSED",
   "dependencies": {
-    "aos": "^2.3.4",
+    "copyfiles": "^2.4.1",
+    "lax.js": "^2.0.3",
     "postcss-cli": "^8.3.1",
     "postcss-import": "^14.0.2",
     "tailwindcss": "^2.2.8"

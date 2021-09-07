@@ -7,9 +7,15 @@ module.exports = {
    theme: {
       extend: {
          colors: {
+            brand: {
+               DEFAULT: "#04e8b9"
+            },
             shiny: {
                DEFAULT: "#a2c3a4"
             }
+         },
+         flex: {
+            full: "1 1 100%"
          }
       }
    },

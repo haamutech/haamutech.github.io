@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svgjs="http://svgjs.com/svgjs" width="2000" height="1000" preserveAspectRatio="none" viewBox="0 0 2000 1000">
+    <g mask="url(&quot;#SvgjsMask1114&quot;)" fill="none">
+        <rect width="2000" height="1000" x="0" y="0" fill="url(#SvgjsLinearGradient1115)"></rect>
+        <path d="M2000 0L1073.17 0L2000 33.4z" fill="rgba(255, 255, 255, .1)"></path>
+        <path d="M1073.17 0L2000 33.4L2000 33.85L762.7 0z" fill="rgba(255, 255, 255, .075)"></path>
+        <path d="M762.6999999999998 0L2000 33.85L2000 121.47L328.1599999999998 0z" fill="rgba(255, 255, 255, .05)"></path>
+        <path d="M328.15999999999985 0L2000 121.47L2000 715.34L305.2599999999999 0z" fill="rgba(255, 255, 255, .025)"></path>
+        <path d="M0 1000L21.08 1000L0 723.0699999999999z" fill="rgba(0, 0, 0, .1)"></path>
+        <path d="M0 723.0699999999999L21.08 1000L809.4300000000001 1000L0 348.2099999999999z" fill="rgba(0, 0, 0, .075)"></path>
+        <path d="M0 348.21000000000004L809.4300000000001 1000L1048.63 1000L0 181.40000000000003z" fill="rgba(0, 0, 0, .05)"></path>
+        <path d="M0 181.4000000000001L1048.63 1000L1607.44 1000L0 141.25000000000009z" fill="rgba(0, 0, 0, .025)"></path>
+    </g>
+    <defs>
+        <mask id="SvgjsMask1114">
+            <rect width="2000" height="1000" fill="#ffffff"></rect>
+        </mask>
+        <linearGradient x1="12.5%" y1="-25%" x2="87.5%" y2="125%" gradientUnits="userSpaceOnUse" id="SvgjsLinearGradient1115">
+            <stop stop-color="#0e2a47" offset="0"></stop>
+            <stop stop-color="rgba(16, 43, 78, 1)" offset="1"></stop>
+        </linearGradient>
+    </defs>
+</svg>
