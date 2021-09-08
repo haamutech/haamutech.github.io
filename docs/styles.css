@@ -1118,14 +1118,6 @@ h1, h2, h3, h4, h5, h6 {
   background-size: cover;
 }
 
-@media print {
-  #footer {
-    position: absolute;
-    width: 100%;
-    bottom: -200vh;
-  }
-}
-
 @media (min-width: 640px){
 }
 
