@@ -534,6 +534,10 @@ video {
   grid-column: span 4 / span 4;
 }
 
+.col-span-5{
+  grid-column: span 5 / span 5;
+}
+
 .m-0{
   margin: 0px;
 }
@@ -1091,11 +1095,6 @@ video {
 html, body {
   height: 100%;
   scroll-behavior: smooth;
-  scroll-snap-type: y mandatory;
-}
-
-.snap {
-  scroll-snap-align: start;
 }
 
 body {
@@ -1117,6 +1116,14 @@ h1, h2, h3, h4, h5, h6 {
 .bg2 {
   background: url(assets/bg2.jpg) no-repeat center center fixed;
   background-size: cover;
+}
+
+@media print {
+  #footer {
+    position: absolute;
+    width: 100%;
+    bottom: -200vh;
+  }
 }
 
 @media (min-width: 640px){
