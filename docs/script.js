@@ -1,7 +1,7 @@
 function contactMe(e) {
    e.preventDefault();
 
-   window.location.href = atob("bWFpbHRvOmp1c3NpQGhhYW11LnRlY2g/c3ViamVjdD1IZWxsbyUyMGZyb20lMjAocGxlYXNlJTIwZmlsbCUyMGluKQ==");
+   window.location.href = atob("bWFpbHRvOmp1c3NpLnJhdW5pb0BoYWFtdS10ZWNobm9sb2dpZXMuY29tP3N1YmplY3Q9SGVsbG8lMjBmcm9tJTIwKHBsZWFzZSUyMGZpbGwlMjBpbik=");
 
    return false;
 }
